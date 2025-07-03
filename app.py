@@ -42,7 +42,7 @@ dhtDevice = adafruit_dht.DHT11(board.D17)
 # This sample shows 1) how to connect AWS IoT Core. 2) How to use AWS IoT
 # Device Shadow
 
-BASE_TOPIC = "data/"
+BASE_TOPIC = "practice_data/"
 DEFAULT_WAIT_TIME = 5
 SHADOW_WAIT_TIME_KEY = "wait_time"
 KEEP_ALIVE = 300
